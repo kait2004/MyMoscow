@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Oswald&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size:16px;
+
+    ~webkit-font-smoothing: antialiased;
+    ~webkit-overflow-scrolling:touch;
+    margin-top: 70px;
+    
+    
+}
+h1, h2, h3, h4, h5, h6, h7,h8, h10{
+    font-family: "Raleway";
+    font-weight: 300;
+
+}
+p{
+    line-height: 28px;
+}
+
+.centered{
+    text-align: center;
+    
+}
+
+a{
+    color:#f85c37;
+}
+
+a:hover, a:focus{
+    color:#7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+hr{
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin:1em 0;
+    padding: 0;
+}
+.navbar-brand{
+    display: inline-flex;
+    font-family: "Dancing Script";
+    
+}
+.navbar {
+    display: inline-flex;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.349);
+    border-color: transparent;
+    
+    
+ }
+ 
+ .navbar li { color: #000 }
+#main, #work, #about, #contact, #feedback{
+     color:white;
+     font-size: 18px;
+ }
+
+#MyMoscow{
+    color:rgb(248, 223, 0);
+    font-size: 32px;
+    margin-left:55px;
+    
+}
+#navbar-logotype{
+    display: inline-flex;
+    position: relative;
+    height: 75px;
+    width: 75px;
+    top:-30px;
+    right:10px;
+}
+
+.col-lg-offset-2{
+    position: relative;
+    top:-400px;
+    color:white;
+    font-weight:bold;
+    -webkit-text-stroke-width: 0.001px;
+   -webkit-text-stroke-color: black;  
+}
+h1{
+    font-size: 70px;
+}
+.slider{
+    width: 100%;
+    height:600px;
+    margin-top:-150px;
+    
+}
+.slider-item{
+    width:100%;
+    height: inherit;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.slider-item:nth-child(1){
+    display: flex;
+    background:url(../img/1_01.jpg);
+    width:100%;
+    background-size: cover;
+}
+.slider-item:nth-child(2){
+    background:url(../img/2_02.jpg) no-repeat;
+    width:100%;
+    background-size: cover;
+}
+.slider-item:nth-child(3){
+    background:url(../img/3_01.jpg) no-repeat;
+    width:100%;
+    background-size: cover;
+}
+#moreabout{
+    color: white;
+    background: rgb(29, 3, 177);
+    border: rgb(90, 61, 194) 3px solid;
+    height: 50px;
+    width: 200px;
+    border-radius: 10%;
+}
+h3{
+    position: relative;
+    top:-150px;
+    font-size:40px;
+    color: rgb(29, 3, 177);
+}
+h4{
+    position: relative;
+    top:-150px;
+    font-size:24px;
+}
+h5{
+    font-size:24px;
+    font-weight:bold;
+}
+#p2{
+    font-size: 16px;
+}
+.aboutpic{
+    align:left; 
+    margin-left:-100px ;
+    
+}
+.aboutpic-item:nth-child(1){
+    display: flex;
+    background:url(../people/group.jpg);
+    width:100%; 
+    height:600px;
+}
+.abouttext{
+    background: orange;
+    width:100%; 
+}
+.about{
+    background: orange;
+    width:100%; 
+    margin-top: 100px;
+}
+h6{
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+    font-weight:bold;
+}
+#p3{
+    font-size: 16px;
+    color: white;
+}
+#buttonabout{
+    color: white;
+    background: rgb(233, 141, 2);
+    border: rgb(252, 165, 36) 3px solid;
+    height: 50px;
+    width: 200px;
+    border-radius: 10%;
+}
+#p2{
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+}
+h5{
+    display: flex;
+    position: relative;
+    padding-left: 10px;   
+}
+h7{
+    position: relative;
+    font-size:40px;
+    top: 50px;
+    padding-bottom: 50px;
+    color: rgb(29, 3, 177);
+}
+h10{
+
+    position: relative;
+    font-size:40px;
+    top: 50px;
+    color: rgb(29, 3, 177);
+    
+    border-bottom: rgb(252, 165, 36) 3px solid;
+}
+#p4{
+
+margin-left:200px; 
+margin-right:200px;
+}
+#p10{
+    position: relative;
+    padding-top: 50px;
+}
+#p6{
+    bottom: 100px;
+}
+/* 
+* это не нужно
+.photo{
+    margin: 0;
+}
+#pic2{
+    margin-left: -5px;
+}
+#pic3{
+    margin-left: -5px;
+}
+#pic4{
+    margin-left: -5px;
+}
+.photo2{
+    margin: 0;
+}
+#pic7{
+    margin-left: -5px;
+}
+#pic6{
+    margin-left: -5px;
+}
+#pic8{
+    margin-left: -5px;
+} */
+#p7{
+    
+    display: flex;
+    position: relative;
+    border-bottom: 3px solid orange;
+    padding-top: 50px;
+    margin-left:500px; 
+    margin-right:500px;
+
+}
+#feedback1-text{
+    display: inline-flex;
+    background: rgb(206, 203, 203);
+    height: 200px;
+    width: 450px;
+    padding-top:30px;
+    padding-left:20px;
+    padding-right:10px;
+}
+#feedback2-text{
+    display: inline-flex;
+    background: rgb(206, 203, 203);
+    height: 200px;
+    width: 450px;
+    padding-top:30px;
+    padding-left:20px;
+    padding-right:10px;
+}
+#feedback1-photo{
+    display: inline-flex;
+}
+#feedback1-photo{
+    display: inline-flex;
+}
+.writeus{
+    width: 100%;
+    background: rgb(206, 203, 203);;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.writeus1 input{
+    display: inline-block;
+    border:orange 3px solid;
+    width:400px;
+    height: 30px;
+    align-content: center; 
+    text-align: left;
+    margin-top:20px;
+}
+.writeus2 input{
+    display: inline-block;
+    border:orange 3px solid;
+    width:400px;
+    height: 30px;
+    align-content: center; 
+    text-align: left;
+    margin-top:10px;
+}
+.writeus3 input{
+    display: inline-block;
+    border:orange 3px solid;
+    width:400px;
+    height: 30px;
+    align-content: center; 
+    text-align: left;
+    margin-top:10px;
+}
+#sbm{
+    display: inline-block;
+    background:rgb(141, 129, 196);
+    border:orange 3px solid;
+    width:400px;
+    height: 30px;
+    color:white;
+    padding-left:140px; 
+    text-align: left;
+    margin-top:10px;
+}
+#message{
+    display: inline-block;
+    position: relative;
+    width:400px;
+    height: 155px;
+    margin-top:15px ;
+    align-content: right; 
+    text-align: left;
+    border:orange 3px solid;
+}
+h8{
+    position: relative;
+    font-size:40px;
+    top: 70px;
+    bottom: 50px;
+    color: rgb(29, 3, 177);
+
+}
+#logom{
+    display: inline-block;
+    position: absolute;
+}
+#contact1{
+    margin-top:50px;
+    display: inline-block;
+    content: center; 
+    height: 200px;
+    width: 400px;
+    color: white;    
+}
+#contact2{
+    margin-top:50px;
+    display: inline-block;
+    color: white;    
+}
+h9{
+    font-size: 30px;
+}
+.contacti{
+    background: grey;
+    width: 100%;
+}
+
+/* исправления */
+/*
+* обнуляем паддинги, чтобы не было отступов
+*/
+.photo > .col-xs-6, .col-sm-6, .col-md-3, .col-lg-3{
+    padding: 0px;
+}
+
+.photo .image-box__item {
+    object-fit: cover;
+    max-width: 100%;
+    /*
+        * или просто width: 100%;
+    */
+}

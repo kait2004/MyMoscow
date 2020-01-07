@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Oswald&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size:16px;
+
+    ~webkit-font-smoothing: antialiased;
+    ~webkit-overflow-scrolling:touch;
+    margin-top: 70px;
+    
+    
+}
+h1, h2, h3, h4, h5, h6, h7,h8, h10{
+    font-family: "Raleway";
+    font-weight: 300;
+
+}
+p{
+    line-height: 28px;
+}
+
+.centered{
+    text-align: center;
+    
+}
+
+a{
+    color:#f85c37;
+}
+
+a:hover, a:focus{
+    color:#7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+hr{
+    display:block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin:1em 0;
+    padding: 0;
+}
+.navbar-brand{
+    display: inline-flex;
+    font-family: "Dancing Script";
+    
+}
+.navbar {
+    display: inline-flex;
+    font-weight: 800;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.349);
+    border-color: transparent;
+    
+    
+ }
+ 
+ .navbar li { color: #000 }
+#main, #work, #about, #contact, #feedback{
+     color:white;
+     font-size: 18px;
+ }
+
+#MyMoscow{
+    color:rgb(248, 223, 0);
+    font-size: 32px;
+    margin-left:55px;
+    
+}
+#navbar-logotype{
+    display: inline-flex;
+    position: relative;
+    height: 75px;
+    width: 75px;
+    top:-30px;
+    right:10px;
+}
+
+.col-lg-12 {
+    position: relative;
+    top:-400px;
+    color:white;
+    font-weight:bold;
+
+    -webkit-text-stroke-width: 0.001px;
+   -webkit-text-stroke-color: black;  
+}
+h1{
+    font-size: 70px;
+    
+}
+h3{
+    font-size: 70px;
+    border-bottom: 5px solid orange;
+    padding-top:50px;
+}
+.slider{
+    width: 100%;
+    height:600px;
+    margin-top:-150px;
+    
+    
+}
+.slider-item{
+    width:100%;
+    height: inherit;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.slider-item:nth-child(1){
+    display: flex;
+    background:url(../img/1_01.jpg);
+    width:100%;
+    background-size: cover;
+}
+.slider-item:nth-child(2){
+    background:url(../img/2_02.jpg) no-repeat;
+    width:100%;
+    background-size: cover;
+}
+.slider-item:nth-child(3){
+    background:url(../img/3_01.jpg) no-repeat;
+    width:100%;
+    background-size: cover;
+}
+#moreabout{
+    background: rgb(29, 3, 177);
+    color: rgb(233, 141, 2);
+    border: rgb(252, 165, 36) 3px solid;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10%;
+    
+}
+h4{
+    font-size: 36px;
+}
+#p1{
+    padding-top:50px ;
+}
+.buyticket{
+    
+    background: rgb(29, 3, 177);
+    color: rgb(233, 141, 2);
+    border: rgb(252, 165, 36) 3px solid;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10%;
+}
+.photo > .col-xs-6, .col-sm-6, .col-md-3, .col-lg-3{
+    padding: 0px;
+    max-width: 100%;
+}
+
+.photo .image-box__item {
+    
+    object-fit: cover;
+    max-width: 98%;
+    padding-bottom:20px ;
+    cursor: pointer;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.map{
+    border:3px solid black;
+}
+#logom{
+    display: inline-block;
+    position: absolute;
+}
+#contact1{
+    margin-top:50px;
+    display: inline-block;
+    content: center; 
+    height: 200px;
+    width: 400px;
+    color: white;    
+}
+#contact2{
+    margin-top:50px;
+    display: inline-block;
+    color: white;    
+}
+h9{
+    font-size: 30px;
+}
+.footer{
+    background: grey;
+    width: 100%;
+}
+
+
+form button{
+    width: 100%;
+    border: 1px solid  #f05e04;
+    height: 35px;
+    color: white;
+    background: #dd8f1a;
+    margin-top: 5px;
+}
+.error{
+    color: red;
+    display: none;
+}
+form{
+    margin-top: 30px;
+}
+.your-question-popup{
+    background-color: rgba(42, 40, 79, 0.44);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    padding:0;
+    margin:0;
+}
+
+.your-question-popup-content{
+    margin: 10% auto;
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    width: 350px;
+    border: 3px solid #848181;
+    height: 300px;
+    text-align: center;
+    
+}
+.popup{
+    padding:0;
+    margin:0;
+}
+#label{
+    font-size: 25px;
+}
+
+.plus {
+    width: 0;
+    height: 0;
+    border-width: 0 7px 9px 7px;
+    border-color: transparent transparent #C2C2C2 transparent;
+    border-style: solid;
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+  }
+  
+  .minus {
+    width: 0;
+    height: 0;
+    border-width: 9px 7px 0 7px;
+    border-color: #C2C2C2 transparent transparent transparent;
+    border-style: solid;
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+  }
+  
+  .plus:hover,
+  .minus:hover {
+    cursor: pointer;
+  }
+  
+  .product_count_input {
+    position: relative;
+    margin-left: 20%;
+    width: 200px;
+  }
+  form{
+    margin-top: 30px;
+}
+.your-question-popup-buy{
+    background-color: rgba(42, 40, 79, 0.44);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    padding:0;
+    margin:0;
+}
+
+.your-question-popup-content-buy{
+    margin: 10% auto;
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    width: 400px;
+    border: 3px solid #848181;
+    height: 300px;
+    text-align: center;
+    
+}
+.popup{
+    padding:0;
+    margin:0;
+}
+.pay{
+    
+    background: rgb(29, 3, 177);
+    color: rgb(233, 141, 2);
+    border: rgb(252, 165, 36) 3px solid;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10%;
+}
